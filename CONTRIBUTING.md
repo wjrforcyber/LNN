@@ -27,6 +27,9 @@ Implies(Contributions(x), Growth)
     cd LNN
     pip install -e .
     ```
+> [!WARNING]
+> You will probably see decrypted warning and error in setuptools when install if for example you have Python 3.9.6 with pip 21.2.4. Upgrade pip to 25.2 will temporarily fix this.
+
 ℹ️ Alternatively to install steps 2+3 above in one step:
    ```commandline
    pip install -e git+https://github.com/IBM/LNN#egg=lnn
