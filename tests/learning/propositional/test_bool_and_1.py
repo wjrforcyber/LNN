@@ -153,7 +153,7 @@ def test_bias():
 def test_all():
     """decrease weights for contradictory facts
 
-    given a False And, for all True inputs - drop all weights
+    given a True And, for all False inputs - drop all weights
     """
     model = Model()
     n = 1000
